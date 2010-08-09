@@ -1,0 +1,40 @@
+This is the wallpaper of Logram.
+
+You can modify it using the Art of Illusion program (http://www.artofillusion.org - GPLv2).
+
+Quick guide to Art of Illusion
+==============================
+
+	* Install Art of Illusion (AUR package for Archlinux, or from its 
+	  website, following the Download page).
+	* Launch Art of Illusion, by using the Applications Menu or the "aoi" 
+	  command.
+	* Go to File»Open..., and pick the scene.aoi file from this directory.
+	* You will see the scene in the four windows on the screen.
+	* Go to Scene»Render..., choose your definition, set Antialiasing to
+	  the maximum, and check the three checkboxes below this option. If you
+	  want the blur to be more accurate (less noisy), increase the value in
+	  Pixel Max and Pixel Min.
+	* Click "Render". You can now go out or do what you want, you have time.
+	* Once the rendering is finished (it appears step by step in a window), 
+	  click "Save", select the format you want, then click Ok. Enter a name
+	  for the file and click Save.
+
+You have now a nice image of the scene. The manual of Art of Illusion is a bit
+outdated but still useful, as the vast majority of the recent changes in this
+program are in the UI, not the features.
+
+Official quality rendering settings :
+
+	* Width : 2134
+	* Height : 1200 (with these big dimensions, one rendering can do the
+	  1920x1080, 1600x1200 and 1920x1200 without loosing informations or
+	  the aspect ratio)
+	* Max Pixels : 1024
+	* Min Pixels : 8
+	* Anti Aliasing set to Maximum
+	* The three checkboxes are checked
+	* In More : Max reflection depth set to 16
+	* In More : Lower geometry for far objects set to No
+
+These settings take nearly seven hours to render on a 1,2Ghz AMD L110.
